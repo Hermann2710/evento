@@ -1,0 +1,887 @@
+{
+  "common": {
+    "hidePassword": "Masquer",
+    "showPassword": "Afficher",
+    "close": "Fermer",
+    "language": "Langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menu": "Menu",
+    "skipToContent": "Aller au contenu",
+    "pagination": "Pagination",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {page} sur {total}"
+  },
+  "validation": {
+    "invalid": "Valeur invalide",
+    "required": "Ce champ est obligatoire",
+    "too_long": "Cette valeur est trop longue",
+    "too_short": "Cette valeur est trop courte",
+    "invalid_email": "Saisissez une adresse e-mail valide",
+    "password_too_short": "Le mot de passe doit contenir au moins 8 caractères",
+    "password_weak": "Le mot de passe doit contenir des lettres et des chiffres",
+    "passwords_mismatch": "Les mots de passe ne correspondent pas",
+    "invalid_phone": "Saisissez un numéro de téléphone valide",
+    "invalid_url": "Saisissez une URL valide",
+    "invalid_date": "Saisissez une date valide",
+    "end_before_start": "La fin doit être postérieure au début",
+    "invalid_number": "Saisissez un nombre valide",
+    "min_value": "Valeur trop petite",
+    "max_value": "Valeur trop grande",
+    "rating_range": "Choisissez une note entre 1 et 5",
+    "ticket_types_required": "Ajoutez au moins un type de billet",
+    "ticket_selection_required": "Sélectionnez au moins un billet",
+    "capacity_exceeded": "La quantité totale de billets dépasse la capacité",
+    "invalid_timezone": "Choisissez un fuseau horaire valide",
+    "invalid_image": "Cette image n’est pas autorisée",
+    "email_taken": "Un compte existe déjà avec cet e-mail",
+    "wrong_password": "Le mot de passe actuel est incorrect",
+    "slug_taken": "Ce nom est déjà utilisé"
+  },
+  "errors": {
+    "generic": "Une erreur est survenue. Veuillez réessayer.",
+    "unauthorized": "Veuillez vous connecter pour continuer.",
+    "forbidden": "Vous n’êtes pas autorisé à effectuer cette action.",
+    "not_found": "Introuvable.",
+    "invalid_input": "Veuillez vérifier les champs du formulaire.",
+    "rate_limited": "Trop de tentatives. Patientez un instant.",
+    "invalid_credentials": "E-mail ou mot de passe invalide.",
+    "account_suspended": "Votre compte est suspendu.",
+    "account_banned": "Votre compte a été banni.",
+    "email_taken": "Un compte existe déjà avec cet e-mail.",
+    "invalid_token": "Ce lien est invalide ou a expiré.",
+    "wrong_password": "Le mot de passe actuel est incorrect.",
+    "event_unavailable": "Cet événement n’est pas disponible à la réservation.",
+    "event_past": "Cet événement a déjà commencé.",
+    "sold_out": "Il ne reste pas assez de billets.",
+    "sales_closed": "La vente est fermée pour ce type de billet.",
+    "invalid_ticket": "Sélection de billets invalide.",
+    "booking_expired": "Votre réservation a expiré. Veuillez réserver à nouveau.",
+    "booking_not_pending": "Cette réservation ne peut plus être payée.",
+    "payment_failed": "Le paiement n’a pas pu être traité.",
+    "not_attendee": "Seuls les participants peuvent évaluer cet événement.",
+    "event_not_started": "Vous pourrez évaluer cet événement une fois commencé.",
+    "capacity_exceeded": "La quantité ne peut pas être inférieure aux billets déjà vendus.",
+    "cannot_moderate_self": "Vous ne pouvez pas modérer votre propre compte.",
+    "has_bookings": "Action impossible : l’événement a des réservations.",
+    "invalid_image": "Cette image n’est pas autorisée.",
+    "upload_unavailable": "L’envoi d’images n’est pas configuré.",
+    "already_organizer": "Vous avez déjà un profil organisateur."
+  },
+  "states": {
+    "errorTitle": "Une erreur est survenue",
+    "errorDescription": "Une erreur inattendue s’est produite. Veuillez réessayer.",
+    "loading": "Chargement…",
+    "retry": "Réessayer"
+  },
+  "upload": {
+    "invalidType": "Seules les images JPG, PNG ou WebP sont acceptées.",
+    "tooLarge": "L’image doit faire 5 Mo maximum.",
+    "unavailable": "Envoi indisponible : collez plutôt une URL d’image HTTPS.",
+    "success": "Image envoyée",
+    "failed": "Échec de l’envoi",
+    "uploading": "Envoi…",
+    "replace": "Remplacer l’image",
+    "choose": "Choisir une image",
+    "useUrl": "Utiliser une URL",
+    "remove": "Retirer",
+    "urlLabel": "URL de l’image",
+    "invalidUrl": "Saisissez une URL HTTPS valide",
+    "apply": "Utiliser",
+    "hint": "JPG, PNG ou WebP · 5 Mo max"
+  },
+  "meta": {
+    "siteTitle": "Evento — Découvrez et réservez des événements",
+    "siteDescription": "Concerts, conférences, festivals et plus encore. Réservez vos billets en quelques secondes avec Evento.",
+    "home": {
+      "title": "Découvrez et réservez les meilleurs événements",
+      "description": "Concerts, conférences, festivals : trouvez des événements près de chez vous et réservez vos billets sur Evento."
+    },
+    "discover": {
+      "title": "Découvrir des événements",
+      "description": "Événements populaires et à venir, catégories et recommandations."
+    },
+    "search": {
+      "title": "Rechercher des événements",
+      "description": "Recherchez par mot-clé, catégorie, ville, date et prix."
+    },
+    "searchFilters": {
+      "title": "Filtres de recherche",
+      "description": "Affinez votre recherche d’événements."
+    },
+    "login": {
+      "title": "Connexion",
+      "description": "Connectez-vous à votre compte Evento."
+    },
+    "register": {
+      "title": "Créer un compte",
+      "description": "Rejoignez Evento pour réserver des billets et suivre des événements."
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "description": "Réinitialisez votre mot de passe Evento."
+    },
+    "resetPassword": {
+      "title": "Réinitialiser le mot de passe",
+      "description": "Choisissez un nouveau mot de passe."
+    },
+    "verifyEmail": {
+      "title": "Vérifier l’e-mail",
+      "description": "Confirmez votre adresse e-mail."
+    },
+    "welcome": {
+      "title": "Bienvenue",
+      "description": "Bienvenue sur Evento."
+    },
+    "onboarding": {
+      "title": "Devenir organisateur",
+      "description": "Créez votre profil organisateur."
+    },
+    "profile": {
+      "title": "Mon profil",
+      "description": "Gérez vos informations personnelles."
+    },
+    "favorites": {
+      "title": "Mes favoris",
+      "description": "Les événements que vous avez enregistrés."
+    },
+    "tickets": {
+      "title": "Mes billets",
+      "description": "Vos billets et QR codes."
+    },
+    "ticket": {
+      "title": "Billet",
+      "description": "Votre billet et son QR code."
+    },
+    "bookings": {
+      "title": "Mes réservations",
+      "description": "Historique de vos réservations."
+    },
+    "booking": {
+      "title": "Réservation",
+      "description": "Détails de la réservation."
+    },
+    "checkout": {
+      "title": "Paiement",
+      "description": "Finalisez votre réservation."
+    },
+    "pay": {
+      "title": "Paiement",
+      "description": "Paiement sécurisé."
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Vos notifications."
+    },
+    "organizer": {
+      "title": "Espace organisateur",
+      "description": "Gérez vos événements."
+    },
+    "newEvent": {
+      "title": "Créer un événement",
+      "description": "Créez un nouvel événement."
+    },
+    "editEvent": {
+      "title": "Modifier l’événement",
+      "description": "Modifiez votre événement."
+    },
+    "organizerProfile": {
+      "title": "Profil organisateur",
+      "description": "Gérez votre profil organisateur."
+    },
+    "admin": {
+      "title": "Administration",
+      "description": "Administration d’Evento."
+    },
+    "notFound": {
+      "title": "Page introuvable",
+      "description": "Cette page n’existe pas."
+    }
+  },
+  "nav": {
+    "loggedOut": "Vous êtes déconnecté",
+    "userMenu": "Menu du compte",
+    "profile": "Profil",
+    "tickets": "Mes billets",
+    "bookings": "Mes réservations",
+    "favorites": "Favoris",
+    "notifications": "Notifications",
+    "organizer": "Espace organisateur",
+    "becomeOrganizer": "Devenir organisateur",
+    "admin": "Administration",
+    "logout": "Se déconnecter",
+    "home": "Accueil",
+    "discover": "Découvrir",
+    "search": "Rechercher",
+    "login": "Connexion",
+    "register": "Inscription",
+    "createEvent": "Créer un événement",
+    "main": "Navigation principale",
+    "searchLabel": "Rechercher des événements",
+    "searchPlaceholder": "Rechercher un événement…",
+    "account": "Mon compte"
+  },
+  "footer": {
+    "tagline": "Découvrez, réservez et vivez des événements inoubliables.",
+    "label": "Navigation de pied de page",
+    "discover": "Découvrir",
+    "search": "Rechercher",
+    "organize": "Organiser un événement",
+    "copyright": "© {year} Evento"
+  },
+  "notifications": {
+    "bellUnread": "Notifications, {count} non lues",
+    "bell": "Notifications",
+    "title": "Notifications",
+    "markAllRead": "Tout marquer comme lu",
+    "unread": "Non lue",
+    "empty": "Aucune notification",
+    "emptyDescription": "Vous serez notifié ici de vos réservations, paiements et événements.",
+    "viewAll": "Voir toutes les notifications",
+    "allMarked": "Toutes les notifications sont lues",
+    "open": "Ouvrir",
+    "markRead": "Marquer comme lue",
+    "unreadCount": "{count, plural, =0 {Aucune notification non lue} one {# notification non lue} other {# notifications non lues}}",
+    "filter": "Filtrer les notifications",
+    "all": "Toutes",
+    "unreadTab": "Non lues"
+  },
+  "auth": {
+    "email": "E-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "password": "Mot de passe",
+    "forgotLink": "Mot de passe oublié ?",
+    "loggingIn": "Connexion…",
+    "loginButton": "Se connecter",
+    "loginSuccess": "Content de vous revoir !",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phoneNumber": "Téléphone",
+    "phoneHint": "Facultatif",
+    "passwordHint": "Au moins 8 caractères, avec lettres et chiffres",
+    "confirmPassword": "Confirmer le mot de passe",
+    "registering": "Création du compte…",
+    "registerButton": "Créer mon compte",
+    "registerSuccess": "Votre compte a été créé",
+    "forgotSent": "Si un compte existe pour cet e-mail, vous recevrez un lien de réinitialisation sous peu.",
+    "forgotButton": "Envoyer le lien",
+    "resetSuccess": "Mot de passe mis à jour. Vous pouvez vous connecter.",
+    "newPassword": "Nouveau mot de passe",
+    "resetButton": "Mettre à jour le mot de passe",
+    "requestNewLink": "Demander un nouveau lien",
+    "verificationResent": "E-mail de vérification envoyé",
+    "resendVerification": "Renvoyer l’e-mail de vérification",
+    "continueWithGoogle": "Continuer avec Google",
+    "or": "ou",
+    "loginTitle": "Bon retour",
+    "loginSubtitle": "Connectez-vous pour réserver et gérer vos billets",
+    "noAccount": "Pas encore de compte ?",
+    "registerLink": "Créer un compte",
+    "registerTitle": "Créez votre compte",
+    "registerSubtitle": "Rejoignez Evento en moins d’une minute",
+    "hasAccount": "Déjà un compte ?",
+    "loginLink": "Se connecter",
+    "forgotTitle": "Mot de passe oublié ?",
+    "forgotSubtitle": "Saisissez votre e-mail pour recevoir un lien de réinitialisation",
+    "backToLogin": "Retour à la connexion",
+    "resetTitle": "Choisissez un nouveau mot de passe",
+    "invalidLink": "Ce lien de réinitialisation est invalide.",
+    "resetSubtitle": "Votre nouveau mot de passe doit être différent de l’ancien",
+    "verifiedTitle": "E-mail vérifié",
+    "verifyTitle": "Vérifiez votre e-mail",
+    "verifiedDescription": "Merci ! Votre adresse e-mail est maintenant vérifiée.",
+    "verifyInvalid": "Ce lien de vérification est invalide ou a expiré.",
+    "verifyDescription": "Consultez votre boîte de réception et cliquez sur le lien de vérification.",
+    "continueToEvento": "Continuer sur Evento",
+    "welcomeTitle": "Bienvenue, {name} !",
+    "welcomeDescription": "Votre compte est prêt. Vous pouvez dès maintenant explorer les événements.",
+    "emailStatus": "E-mail :",
+    "verified": "Vérifié",
+    "unverified": "Non vérifié",
+    "verificationPending": "Nous vous avons envoyé un e-mail de vérification. Vous pouvez continuer à utiliser Evento en attendant.",
+    "startExploring": "Commencer à explorer",
+    "becomeOrganizer": "Je veux organiser des événements"
+  },
+  "home": {
+    "heroEyebrow": "Concerts · Conférences · Festivals",
+    "heroTitle": "Vivez des moments inoubliables",
+    "heroSubtitle": "Trouvez les meilleurs événements près de chez vous et réservez vos billets en quelques clics.",
+    "searchLabel": "Que recherchez-vous ?",
+    "searchPlaceholder": "Artiste, événement, mot-clé…",
+    "cityLabel": "Ville",
+    "cityPlaceholder": "Ville",
+    "searchButton": "Rechercher",
+    "featuredTitle": "À la une",
+    "featuredDescription": "Sélectionnés par notre équipe",
+    "seeAll": "Tout voir",
+    "emptyTitle": "Aucun événement pour l’instant",
+    "emptyDescription": "De nouveaux événements apparaîtront bientôt ici.",
+    "categoriesTitle": "Parcourir par catégorie",
+    "upcomingTitle": "Prochains événements",
+    "popularTitle": "Populaires en ce moment",
+    "organizersTitle": "Organisateurs",
+    "organizersDescription": "Ils créent les événements que vous aimez",
+    "organizerEvents": "{count, plural, =0 {Aucun événement} one {# événement} other {# événements}}",
+    "ctaTitle": "Organisez votre propre événement",
+    "ctaDescription": "Créez votre événement, vendez des billets et suivez vos ventes en temps réel.",
+    "ctaButton": "Devenir organisateur"
+  },
+  "discover": {
+    "title": "Découvrir",
+    "subtitle": "Explorez ce qui se passe près de chez vous",
+    "categories": "Catégories",
+    "recommended": "Recommandés",
+    "recommendedForYou": "D’après vos favoris",
+    "recommendedGeneric": "Notre sélection",
+    "popular": "Populaires",
+    "seeAll": "Tout voir",
+    "upcoming": "À venir",
+    "emptyTitle": "Aucun événement à venir",
+    "emptyDescription": "Revenez bientôt pour de nouveaux événements."
+  },
+  "events": {
+    "soldOut": "Complet",
+    "noTickets": "Aucun billet disponible",
+    "free": "Gratuit",
+    "fromPrice": "À partir de {price}",
+    "canceled": "Annulé",
+    "past": "Terminé",
+    "statusLabel": {
+      "draft": "Brouillon",
+      "published": "Publié",
+      "canceled": "Annulé",
+      "hidden": "Masqué par la modération"
+    },
+    "canceledNotice": "Cet événement a été annulé par l’organisateur. Les détenteurs de billets ont été notifiés et remboursés.",
+    "pastNotice": "Cet événement est terminé.",
+    "when": "Quand",
+    "until": "Jusqu’à {time}",
+    "where": "Où",
+    "about": "À propos de l’événement",
+    "gallery": "Galerie",
+    "galleryImage": "Image de galerie {index}",
+    "organizedBy": "Organisé par",
+    "reviews": "Avis",
+    "reviewAttendeesOnly": "Seuls les participants peuvent laisser un avis une fois l’événement commencé.",
+    "loginToReview": "Connectez-vous pour laisser un avis.",
+    "noReviews": "Aucun avis pour l’instant.",
+    "ratingLabel": "Noté {rating} sur 5",
+    "comments": "{count, plural, =0 {Commentaires} one {# commentaire} other {# commentaires}}",
+    "loginToComment": "Connectez-vous pour commenter",
+    "noComments": "Aucun commentaire. Soyez le premier !",
+    "tickets": "Billets",
+    "edit": "Modifier"
+  },
+  "search": {
+    "filtersLabel": "Filtres de recherche",
+    "query": "Mot-clé",
+    "queryPlaceholder": "Artiste, événement…",
+    "category": "Catégorie",
+    "allCategories": "Toutes les catégories",
+    "city": "Ville",
+    "country": "Pays",
+    "date": "Date",
+    "anyDate": "Toutes les dates",
+    "dates": {
+      "today": "Aujourd’hui",
+      "tomorrow": "Demain",
+      "week": "7 prochains jours",
+      "weekend": "Ce week-end",
+      "month": "30 prochains jours"
+    },
+    "price": "Prix",
+    "priceMin": "Min",
+    "priceMax": "Max",
+    "sort": "Trier par",
+    "sorts": {
+      "date": "Date",
+      "price_asc": "Prix croissant",
+      "price_desc": "Prix décroissant",
+      "popular": "Popularité",
+      "newest": "Nouveautés"
+    },
+    "apply": "Appliquer",
+    "reset": "Réinitialiser",
+    "resultsFor": "Résultats pour « {query} »",
+    "title": "Tous les événements",
+    "resultCount": "{count, plural, =0 {Aucun événement trouvé} one {# événement trouvé} other {# événements trouvés}}",
+    "filters": "Filtres",
+    "emptyTitle": "Aucun événement ne correspond à votre recherche",
+    "emptyDescription": "Essayez de modifier ou de retirer certains filtres."
+  },
+  "booking": {
+    "free": "Gratuit",
+    "soldOut": "Complet",
+    "salesClosed": "Vente fermée",
+    "remaining": "{count, plural, one {# billet restant} other {# billets restants}}",
+    "quantityFor": "Quantité pour {name}",
+    "decrease": "Retirer un billet {name}",
+    "increase": "Ajouter un billet {name}",
+    "subtotal": "Sous-total",
+    "fees": "Frais de service",
+    "total": "Total",
+    "selectTickets": "Sélectionnez des billets",
+    "bookCount": "{count, plural, one {Réserver # billet} other {Réserver # billets}}",
+    "loginToBook": "Se connecter pour réserver",
+    "serverPricingNote": "Le prix final est calculé de manière sécurisée au paiement.",
+    "freeConfirmed": "Vos billets gratuits sont confirmés !",
+    "reserved": "Billets réservés. Finalisez votre paiement.",
+    "canceled": "Réservation annulée",
+    "cancelBooking": "Annuler la réservation",
+    "holdExpires": "Vos billets sont réservés pendant {time}",
+    "items": "Billets réservés",
+    "ticket": "Billet",
+    "quantity": "Quantité",
+    "checkoutTitle": "Paiement",
+    "checkoutSubtitle": "Vérifiez votre commande et procédez au paiement",
+    "payNow": "Payer {amount}",
+    "securePayment": "Les paiements sont confirmés uniquement par notre prestataire de paiement.",
+    "notPayableTitle": "Cette réservation ne peut plus être payée",
+    "notPayableDescription": "La réservation a expiré ou a été annulée. Vous pouvez réserver à nouveau depuis la page de l’événement.",
+    "backToEvent": "Retour à l’événement",
+    "bookingTitle": "Réservation",
+    "reference": "Référence {id}",
+    "confirmedTitle": "Réservation confirmée 🎉",
+    "confirmedDescription": "{count, plural, one {Votre billet est prêt.} other {Vos # billets sont prêts.}}",
+    "awaitingPayment": "En attente de la confirmation du paiement…",
+    "statusMessage": {
+      "failed": "Le paiement a échoué. Vos billets ont été libérés.",
+      "expired": "La réservation a expiré avant le paiement."
+    },
+    "payment": "Paiement",
+    "viewTickets": "Voir mes billets",
+    "continuePayment": "Continuer vers le paiement",
+    "myBookings": "Mes réservations",
+    "emptyTitle": "Aucune réservation",
+    "emptyDescription": "Vos réservations apparaîtront ici.",
+    "explore": "Explorer les événements"
+  },
+  "payments": {
+    "approved": "Paiement accepté",
+    "declined": "Paiement refusé",
+    "approve": "Accepter le paiement",
+    "decline": "Refuser le paiement",
+    "sandboxTitle": "Evento Pay · Bac à sable",
+    "sandboxSubtitle": "Prestataire de paiement de test",
+    "alreadyProcessed": "Ce paiement a déjà été traité.",
+    "sandboxNote": "Mode test : le résultat est transmis à Evento via un webhook signé, exactement comme un vrai prestataire."
+  },
+  "tickets": {
+    "title": "Mes billets",
+    "subtitle": "Présentez le QR code à l’entrée",
+    "emptyTitle": "Aucun billet",
+    "emptyDescription": "Réservez un événement pour retrouver vos billets ici.",
+    "explore": "Explorer les événements",
+    "upcoming": "À venir",
+    "noUpcoming": "Aucun billet à venir.",
+    "past": "Passés",
+    "qrAlt": "QR code du billet {number}",
+    "invalidTicket": "Ce billet n’est plus valide.",
+    "location": "Lieu",
+    "type": "Type de billet",
+    "booking": "Réservation",
+    "print": "Imprimer",
+    "viewEvent": "Voir l’événement"
+  },
+  "favorites": {
+    "add": "Enregistrer",
+    "added": "Ajouté aux favoris",
+    "removed": "Retiré des favoris",
+    "remove": "Enregistré",
+    "title": "Mes favoris",
+    "subtitle": "Les événements que vous avez enregistrés",
+    "emptyTitle": "Aucun favori",
+    "emptyDescription": "Enregistrez des événements pour les retrouver ici.",
+    "explore": "Explorer les événements"
+  },
+  "reviews": {
+    "updated": "Avis mis à jour",
+    "created": "Merci pour votre avis !",
+    "yourRating": "Votre note",
+    "stars": "{count, plural, one {# étoile} other {# étoiles}}",
+    "yourReview": "Votre avis",
+    "update": "Mettre à jour",
+    "submit": "Publier l’avis",
+    "delete": "Supprimer",
+    "deleted": "Avis supprimé"
+  },
+  "reports": {
+    "chooseReason": "Veuillez choisir un motif",
+    "sent": "Signalement envoyé. Merci.",
+    "report": "Signaler",
+    "title": "Signaler un contenu",
+    "description": "Dites-nous ce qui ne va pas. Nos modérateurs l’examineront.",
+    "cancel": "Annuler",
+    "submit": "Envoyer le signalement",
+    "reason": "Motif",
+    "reasons": {
+      "spam": "Spam",
+      "abuse": "Harcèlement ou abus",
+      "inappropriate": "Contenu inapproprié",
+      "fraud": "Fraude ou arnaque",
+      "other": "Autre"
+    },
+    "details": "Détails (facultatif)"
+  },
+  "comments": {
+    "posted": "Commentaire publié",
+    "label": "Votre commentaire",
+    "placeholder": "Partagez votre avis…",
+    "post": "Publier",
+    "updated": "Commentaire modifié",
+    "deleted": "Commentaire supprimé",
+    "confirmDelete": "Supprimer ce commentaire ?",
+    "edited": "(modifié)",
+    "edit": "Modifier",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+  "status": {
+    "booking": {
+      "pending": "En attente",
+      "confirmed": "Confirmée",
+      "canceled": "Annulée",
+      "failed": "Échouée",
+      "expired": "Expirée",
+      "refunded": "Remboursée"
+    },
+    "payment": {
+      "pending": "En attente",
+      "processing": "En cours",
+      "succeeded": "Réussi",
+      "failed": "Échoué",
+      "refunded": "Remboursé"
+    },
+    "ticket": {
+      "valid": "Valide",
+      "used": "Utilisé",
+      "canceled": "Annulé"
+    },
+    "event": {
+      "draft": "Brouillon",
+      "published": "Publié",
+      "canceled": "Annulé",
+      "hidden": "Masqué"
+    },
+    "user": {
+      "active": "Actif",
+      "suspended": "Suspendu",
+      "banned": "Banni"
+    },
+    "role": {
+      "USER": "Utilisateur",
+      "ORGANIZER": "Organisateur",
+      "ADMIN": "Administrateur"
+    }
+  },
+  "eventForm": {
+    "updated": "Événement mis à jour",
+    "created": "Événement créé en brouillon",
+    "fixErrors": "Veuillez corriger les champs signalés",
+    "general": "Informations générales",
+    "title": "Titre",
+    "description": "Description",
+    "category": "Catégorie",
+    "chooseCategory": "Choisissez une catégorie",
+    "media": "Images",
+    "coverImage": "Image de couverture",
+    "gallery": "Galerie",
+    "galleryImage": "Image de galerie {index}",
+    "removeImage": "Retirer l’image {index}",
+    "addGalleryImage": "Ajouter une image à la galerie",
+    "whereWhen": "Lieu et date",
+    "location": "Lieu",
+    "city": "Ville",
+    "country": "Pays",
+    "startDate": "Début",
+    "endDate": "Fin",
+    "timezone": "Fuseau horaire",
+    "capacity": "Capacité",
+    "capacityHint": "Le total des billets ne peut pas dépasser la capacité",
+    "ticketTypes": "Types de billets",
+    "currency": "Devise",
+    "ticketNumber": "Type de billet n°{index}",
+    "ticketName": "Nom",
+    "price": "Prix",
+    "priceHint": "0 pour gratuit",
+    "quantity": "Quantité",
+    "ticketDescription": "Description",
+    "salesStart": "Début des ventes (facultatif)",
+    "salesEnd": "Fin des ventes (facultatif)",
+    "removeTicket": "Retirer ce type de billet",
+    "addTicket": "Ajouter un type de billet",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "create": "Créer l’événement"
+  },
+  "organizer": {
+    "nav": {
+      "title": "Organisateur",
+      "dashboard": "Tableau de bord",
+      "events": "Mes événements",
+      "create": "Créer un événement",
+      "bookings": "Réservations",
+      "profile": "Profil organisateur"
+    },
+    "actions": {
+      "bookings": "Réservations",
+      "edit": "Modifier",
+      "view": "Voir",
+      "publish": "Publier",
+      "unpublish": "Dépublier",
+      "cancel": "Annuler l’événement",
+      "delete": "Supprimer",
+      "back": "Retour",
+      "confirm": "Confirmer",
+      "publishDone": "Événement publié",
+      "unpublishDone": "Événement dépublié",
+      "cancelDone": "Événement annulé",
+      "deleteDone": "Événement supprimé",
+      "publishConfirmTitle": "Publier cet événement ?",
+      "publishConfirmDescription": "Il sera visible par tous.",
+      "unpublishConfirmTitle": "Dépublier cet événement ?",
+      "unpublishConfirmDescription": "Il ne sera plus visible.",
+      "cancelConfirmTitle": "Annuler cet événement ?",
+      "cancelConfirmDescription": "Toutes les réservations seront annulées et remboursées, et les participants notifiés. Action irréversible.",
+      "deleteConfirmTitle": "Supprimer cet événement ?",
+      "deleteConfirmDescription": "Seuls les événements sans réservation peuvent être supprimés. Action irréversible."
+    },
+    "profile": {
+      "saved": "Profil organisateur enregistré",
+      "name": "Nom de l’organisation",
+      "description": "Description",
+      "website": "Site web",
+      "logo": "Logo",
+      "save": "Enregistrer",
+      "title": "Profil organisateur",
+      "subtitle": "Ces informations apparaissent sur vos événements"
+    },
+    "onboarding": {
+      "alreadyTitle": "Vous êtes déjà organisateur",
+      "goToDashboard": "Aller à mon tableau de bord",
+      "title": "Devenir organisateur",
+      "subtitle": "Créez votre profil organisateur pour publier des événements et vendre des billets.",
+      "skip": "Plus tard"
+    },
+    "needsProfileTitle": "Créez votre profil organisateur",
+    "needsProfileDescription": "Un profil organisateur est nécessaire pour créer des événements.",
+    "createProfile": "Créer mon profil",
+    "dashboardTitle": "Bonjour, {name}",
+    "dashboardSubtitle": "Vos événements, ventes et revenus en un coup d’œil",
+    "stats": {
+      "events": "Événements",
+      "published": "{count} publiés",
+      "bookings": "Réservations confirmées",
+      "tickets": "Billets vendus",
+      "revenue": "Revenus",
+      "revenueHint": "Hors frais de service"
+    },
+    "salesByEvent": "Ventes par événement",
+    "noEvents": "Aucun événement",
+    "noEventsDescription": "Créez votre premier événement pour commencer à vendre des billets.",
+    "fillRate": "Taux de remplissage",
+    "soldOf": "{sold} / {capacity} vendus",
+    "recentBookings": "Réservations récentes",
+    "noBookings": "Aucune réservation.",
+    "table": {
+      "customer": "Client",
+      "event": "Événement",
+      "tickets": "Billets",
+      "amount": "Montant",
+      "status": "Statut",
+      "date": "Date"
+    },
+    "eventsTitle": "Mes événements",
+    "newEventTitle": "Créer un événement",
+    "newEventSubtitle": "Votre événement est enregistré en brouillon jusqu’à sa publication.",
+    "editEventTitle": "Modifier l’événement",
+    "eventBookings": "Réservations de cet événement",
+    "bookingsTitle": "Réservations",
+    "allBookings": "Toutes les réservations"
+  },
+  "admin": {
+    "nav": {
+      "title": "Administration",
+      "overview": "Vue d’ensemble",
+      "users": "Utilisateurs",
+      "organizers": "Organisateurs",
+      "events": "Événements",
+      "categories": "Catégories",
+      "bookings": "Réservations",
+      "payments": "Paiements",
+      "reports": "Signalements",
+      "reviews": "Avis",
+      "comments": "Commentaires"
+    },
+    "categories": {
+      "saved": "Catégorie enregistrée",
+      "name": "Nom",
+      "description": "Description",
+      "save": "Enregistrer",
+      "add": "Ajouter une catégorie"
+    },
+    "empty": "Rien à afficher",
+    "search": "Rechercher…",
+    "overviewTitle": "Vue d’ensemble",
+    "overviewSubtitle": "Statistiques globales de la plateforme",
+    "stats": {
+      "users": "Utilisateurs",
+      "organizers": "Organisateurs",
+      "events": "Événements",
+      "published": "{count} publiés",
+      "bookings": "Réservations confirmées",
+      "revenue": "Paiements encaissés",
+      "payments": "Paiements",
+      "openReports": "Signalements ouverts"
+    },
+    "cols": {
+      "user": "Utilisateur",
+      "role": "Rôle",
+      "status": "Statut",
+      "created": "Créé le",
+      "actions": "Actions",
+      "organizer": "Organisateur",
+      "events": "Événements",
+      "event": "Événement",
+      "date": "Date",
+      "reference": "Référence",
+      "amount": "Montant",
+      "provider": "Prestataire",
+      "target": "Cible",
+      "reason": "Motif",
+      "reporter": "Signalé par",
+      "content": "Contenu"
+    },
+    "restore": "Rétablir",
+    "done": "Effectué",
+    "suspend": "Suspendre",
+    "confirm": "Êtes-vous sûr ?",
+    "ban": "Bannir",
+    "makeAdmin": "Promouvoir admin",
+    "removeAdmin": "Retirer admin",
+    "unhide": "Afficher",
+    "hide": "Masquer",
+    "unfeature": "Retirer de la une",
+    "feature": "Mettre à la une",
+    "eventCount": "{count, plural, =0 {Aucun événement} one {# événement} other {# événements}}",
+    "delete": "Supprimer",
+    "filter": "Filtrer",
+    "reportStatus": {
+      "open": "Ouverts",
+      "resolved": "Résolus",
+      "dismissed": "Rejetés"
+    },
+    "targets": {
+      "user": "Utilisateur",
+      "event": "Événement",
+      "comment": "Commentaire",
+      "review": "Avis"
+    },
+    "resolveAndHide": "Résoudre et sanctionner",
+    "resolve": "Résoudre",
+    "dismiss": "Rejeter"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous cherchez n’existe pas ou a été déplacée.",
+    "home": "Retour à l’accueil"
+  },
+  "notificationTemplates": {
+    "bookingConfirmed": {
+      "title": "Réservation confirmée",
+      "message": "Votre réservation pour {event} est confirmée ({count} billet(s))."
+    },
+    "paymentSucceeded": {
+      "title": "Paiement reçu",
+      "message": "Nous avons reçu votre paiement de {amount} pour {event}."
+    },
+    "paymentFailed": {
+      "title": "Paiement échoué",
+      "message": "Votre paiement pour {event} a échoué. Vos billets ont été libérés."
+    },
+    "eventCanceled": {
+      "title": "Événement annulé",
+      "message": "{event} a été annulé. Votre réservation a été remboursée."
+    },
+    "eventUpdated": {
+      "title": "Événement modifié",
+      "message": "La date ou le lieu de {event} a changé. Consultez les détails."
+    },
+    "contentHidden": {
+      "title": "Contenu masqué",
+      "message": "Une de vos contributions a été masquée par nos modérateurs."
+    },
+    "accountStatus": {
+      "title": "Statut du compte mis à jour",
+      "message": "Le statut de votre compte est maintenant : {status}."
+    }
+  },
+  "emails": {
+    "footer": "Vous recevez cet e-mail car vous possédez un compte Evento.",
+    "welcome": {
+      "subject": "Bienvenue sur Evento !",
+      "heading": "Bienvenue, {name} !",
+      "body": "Votre compte est prêt. Découvrez les événements près de chez vous et réservez vos billets en quelques clics.",
+      "cta": "Découvrir les événements"
+    },
+    "verification": {
+      "subject": "Vérifiez votre adresse e-mail",
+      "heading": "Confirmez votre e-mail",
+      "body": "Bonjour {name}, merci de confirmer votre adresse e-mail. Ce lien expire dans 24 heures. Vous pouvez continuer à utiliser Evento en attendant.",
+      "cta": "Vérifier mon e-mail"
+    },
+    "passwordReset": {
+      "subject": "Réinitialisez votre mot de passe",
+      "heading": "Réinitialisation du mot de passe",
+      "body": "Bonjour {name}, cliquez sur le bouton ci-dessous pour choisir un nouveau mot de passe. Ce lien expire dans 1 heure et n’est utilisable qu’une fois. Si vous n’êtes pas à l’origine de cette demande, ignorez cet e-mail.",
+      "cta": "Réinitialiser mon mot de passe"
+    },
+    "bookingConfirmation": {
+      "subject": "Réservation confirmée : {event}",
+      "heading": "Votre réservation est confirmée",
+      "body": "Bonjour {name}, votre réservation pour {event} est confirmée. Total : {amount}.",
+      "cta": "Voir ma réservation"
+    },
+    "paymentConfirmation": {
+      "subject": "Paiement reçu : {amount}",
+      "heading": "Paiement reçu",
+      "body": "Nous avons bien reçu votre paiement de {amount} pour {event}. Merci !",
+      "cta": "Voir"
+    },
+    "ticketDelivery": {
+      "subject": "Vos billets pour {event}",
+      "heading": "Vos billets sont prêts",
+      "body": "{count} billet(s) pour {event} sont disponibles dans votre compte Evento. Présentez le QR code à l’entrée.",
+      "cta": "Voir mes billets"
+    },
+    "eventNotification": {
+      "subject": "{title}",
+      "heading": "{title}",
+      "body": "{message}",
+      "cta": "Voir les détails"
+    }
+  },
+  "profile": {
+    "title": "Mon profil",
+    "subtitle": "Gérez vos informations personnelles et votre sécurité",
+    "verified": "E-mail vérifié",
+    "unverified": "E-mail non vérifié",
+    "personalInfo": "Informations personnelles",
+    "personalInfoDescription": "Votre e-mail, votre rôle et votre statut ne sont pas modifiables ici.",
+    "security": "Sécurité",
+    "securityDescription": "Modifiez votre mot de passe",
+    "saved": "Profil mis à jour",
+    "avatar": "Photo de profil",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phoneNumber": "Téléphone",
+    "save": "Enregistrer",
+    "passwordChanged": "Mot de passe modifié",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le nouveau mot de passe",
+    "changePassword": "Changer le mot de passe"
+  }
+}
