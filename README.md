@@ -23,7 +23,7 @@ Demo accounts (seed): `admin@evento.app / Admin12345`, `organizer@evento.app / O
 2. Set it as `DATABASE_URL` in `.env` (keep `?sslmode=require`). The value is server-only; never use a `NEXT_PUBLIC_` variable for it.
 3. Run `npm run db:migrate`, then optionally `npm run db:seed`.
 
-The application uses Neon's WebSocket driver because booking and webhook flows use interactive transactions and savepoints. `drizzle-kit` applies the existing PostgreSQL migrations directly to Neon.
+The application uses the standard `pg` client, which supports both Neon (with its pooled TLS URL) and conventional PostgreSQL servers. `drizzle-kit` applies the existing PostgreSQL migrations to either database.
 
 | Script | Purpose |
 | --- | --- |
